@@ -48,10 +48,10 @@ const resolvers = {
     },
 
     durationInSeconds: ({ length }) => length,
+  },
 
-    Module: {
-      durationInSeconds: ({ length }) => length,
-    },
+  Module: {
+    durationInSeconds: ({ length }) => length,
   },
 };
 
